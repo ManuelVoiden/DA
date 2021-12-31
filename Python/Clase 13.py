@@ -52,8 +52,9 @@ elif moneda_inicio == mon3 and moneda_final == mon2:
     valor_final = valor_a_convertir * cop_usd
     print(f'{mon3} {valor_a_convertir} equivale a {mon2} {valor_final}')
 else:
+    print('******************************************')
     print('ERROR, moneda no soportada por el programa')
-    
+    print('******************************************')    
 
 print('¡Gracias por usar Monedapp!')
     
