@@ -56,6 +56,7 @@ else:
     print('ERROR, moneda no soportada por el programa')
     print('******************************************')    
 
+print("")
 print('¡Gracias por usar Monedapp!')
     
     
