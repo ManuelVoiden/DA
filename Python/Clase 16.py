@@ -5,3 +5,6 @@ def texto_repetir():
     print('Mensaje especial: ')
     print('Estoy aprendiendo a usar funciones')
     
+texto_repetir()
+texto_repetir()
+texto_repetir()
