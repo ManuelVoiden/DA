@@ -23,32 +23,32 @@ print("")
 
 if moneda_inicio == mon1 and moneda_final == mon2:
     print(f'Convertiremos entre {mon1} y {mon2}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * eur_usd
     print(f'{mon1} {valor_a_convertir} equivale a {mon2} {valor_final}')
 elif moneda_inicio == mon1 and moneda_final == mon3:
     print(f'Convertiremos entre {mon1} y {mon3}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * eur_cop
     print(f'{mon1} {valor_a_convertir} equivale a {mon3} {valor_final}')
 elif moneda_inicio == mon2 and moneda_final == mon3:
     print(f'Convertiremos entre {mon2} y {mon3}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * usd_cop
     print(f'{mon2} {valor_a_convertir} equivale a {mon3} {valor_final}')
 elif moneda_inicio == mon2 and moneda_final == mon1:
     print(f'Convertiremos entre {mon2} y {mon1}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * usd_eur
     print(f'{mon2} {valor_a_convertir} equivale a {mon1} {valor_final}')
 elif moneda_inicio == mon3 and moneda_final == mon1:
     print(f'Convertiremos entre {mon3} y {mon1}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * cop_eur
     print(f'{mon3} {valor_a_convertir} equivale a {mon1} {valor_final}')
 elif moneda_inicio == mon3 and moneda_final == mon2:
     print(f'Convertiremos entre {mon3} y {mon2}')
-    valor_a_convertir = int(input('Inserta el valor a convertir: '))
+    valor_a_convertir = float(input('Inserta el valor a convertir: '))
     valor_final = valor_a_convertir * cop_usd
     print(f'{mon3} {valor_a_convertir} equivale a {mon2} {valor_final}')
 else:
