@@ -10,7 +10,7 @@ def index():
 def reply():
     msg = request.form.get('Body')
     if(msg.lower() == "hola"):
-    	reply = "Hola! \n Como te puedo ayudar?" 
+    	reply = "Hola!\n Como te puedo ayudar?" 
     else:
     	reply = msg
     response = MessagingResponse()
