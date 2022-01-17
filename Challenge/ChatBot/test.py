@@ -1,3 +1,13 @@
-import os
-print("PYTHONPATH:", os.environ.get('PYTHONPATH'))
-print("PATH:", os.environ.get('PATH'))
+import pandas as pd
+
+matches = pd.read_csv(r'matches.csv')
+import csv 
+file= open('matches.csv')
+rows=[]
+csvreader= csv.reader(file)
+for row in csvreader:
+    print(row)
+    
+    
+for i in range(10):
+    print(i)
