@@ -4,7 +4,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 @app.route("/")
 def index():
-    return "Hello, World!"
+    return "Hola, Mundo!"
 
 @app.route("/sms", methods=['POST'])
 def reply():
