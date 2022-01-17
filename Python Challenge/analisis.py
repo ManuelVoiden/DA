@@ -13,7 +13,7 @@ for x in range((matches.shape[0])):
         if matches.iloc[x,5] == stadiums.iloc[y,0]:
             matches.iloc[x,5]= stadiums.iloc[y,2]
             
-matches
+
 
 
 
