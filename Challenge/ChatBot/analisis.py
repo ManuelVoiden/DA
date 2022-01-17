@@ -1,8 +1,8 @@
 import pandas as pd
 
-matches = pd.read_csv("C:\Users\JuanMarin\Documents\Github\DA\Challenge\matches.csv")
-players = pd.read_csv('players.csv')
-stadiums = pd.read_json('stadiums.json')
+matches = pd.read_csv('../matches.csv')
+players = pd.read_csv('../players.csv')
+stadiums = pd.read_json('../STADIUMS.json')
 
 #Añadir columna de nombre de ciudad a cada partido
 matches['ciudad']=""
@@ -13,11 +13,7 @@ for x in range((matches.shape[0])):
         if matches.iloc[x,5] == stadiums.iloc[y,0]:
             matches.iloc[x,5]= stadiums.iloc[y,2]
             
-
-
-
-
-
+print(matches.head(3))
 
 
 
