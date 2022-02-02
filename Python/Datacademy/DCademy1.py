@@ -24,16 +24,19 @@ class conversor_moneda:
 if __name__ == "__main__":
       url = str.__add__('http://data.fixer.io/api/latest?access_key=','4e6b538d016ea8c6948fdf52ec855fbd')
       c = conversor_moneda(url)
+      
       print("")
       print("Bienvenido a Monedapp 💰")
       print("""Puedes convertir entre las siguientes monedas: 
       -> EUR, USD, CAD, AUD, GBP, COP, CHF, MXN, ARS, CLP, PEN 
       """)
-      print("")
+      
       moneda_inicial = str(input('Que moneda quieres convertir: '))
       moneda_inicial = moneda_inicial.upper()
       moneda_final = str(input('A que moneda quieres convertir: '))
       moneda_final = moneda_final.upper()
       cantidad = int(input('Inserta el valor a convertir: '))
+      
       print("")
+      
       c.conversor(moneda_inicial, moneda_final, cantidad)
