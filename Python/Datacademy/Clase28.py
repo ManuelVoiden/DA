@@ -10,6 +10,7 @@ def palindromo(frase):
 def limpieza(frase):
     frase=frase.lower()
     frase=frase.strip()
+    frase=frase.replace(' ','')
     return frase
         
 def run():
