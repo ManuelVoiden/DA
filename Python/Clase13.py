@@ -7,9 +7,9 @@ cop_eur = 0.00022
 usd_cop = 4070
 cop_usd = 0.00025
 
-mon1 = 'EUR' 
-mon2 = 'USD' 
-mon3 = 'COP'
+mon1 = 'EUR 🇪🇺' 
+mon2 = 'USD 🇺🇸' 
+mon3 = 'COP 🇨🇴'
 
 valor_a_convertir = 0
 valor_final = 0
@@ -53,7 +53,7 @@ elif moneda_inicio == mon3 and moneda_final == mon2:
     print(f'{mon3} {valor_a_convertir} equivale a {mon2} {valor_final}')
 else:
     print('******************************************')
-    print('ERROR, moneda no soportada por el programa')
+    print('ERROR, moneda no soportada por el programa.')
     print('******************************************')    
 
 print("")
