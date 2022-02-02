@@ -2,7 +2,7 @@ from telnetlib import theNULL
 
 
 def palindromo(frase, frase_fix):
-    if frase == frase[::-1]:
+    if frase_fix == frase_fix[::-1]:
         print(f'La frase {frase} es un palindromo!, al reves es {frase_fix[::-1]}')
     else:
         print(f'Lo sentimos, la frase {frase} no es un palindromo, al reves es {frase_fix[::-1]} ingresa otra frase y comprueba de nuevo.')
