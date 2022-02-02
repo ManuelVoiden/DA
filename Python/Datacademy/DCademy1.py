@@ -19,7 +19,7 @@ class conversor_moneda:
             elif moneda_inicial != 'EUR': 
                   cantidad = ((cantidad/self.rates[moneda_inicial])*self.rates[moneda_final])
             print("Tu conversión está lista")
-            print(f'{moneda_inicial} {cantidad_inicial} equivalen a {moneda_final} {round(cantidad, 2)}')
+            print(f'{moneda_inicial} {"${:,.2f}".format(cantidad_inicial)} equivalen a {moneda_final} {"${:,.2f}".format(cantidad)}')
             
 if __name__ == "__main__":
       url = str.__add__('http://data.fixer.io/api/latest?access_key=','4e6b538d016ea8c6948fdf52ec855fbd')
