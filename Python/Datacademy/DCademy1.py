@@ -19,7 +19,7 @@ class conversor_moneda:
             elif moneda_inicial != 'EUR': 
                   cantidad = ((cantidad/self.rates[moneda_inicial])*self.rates[moneda_final])
             print("Tu conversión está lista")
-            print(f'{moneda_inicial} {"${:,.2f}".format(cantidad_inicial)} equivalen a {moneda_final} {"${:,.2f}".format(cantidad)}')
+            print(f'{moneda_inicial} {"{:,.2f}".format(cantidad_inicial)} equivalen a {moneda_final} {"{:,.2f}".format(cantidad)}')
             
 if __name__ == "__main__":
       url = str.__add__('http://data.fixer.io/api/latest?access_key=','4e6b538d016ea8c6948fdf52ec855fbd')
@@ -28,7 +28,7 @@ if __name__ == "__main__":
       print("")
       print("Bienvenido a Monedapp 💰")
       print("""Puedes convertir entre las siguientes monedas: 
-      -> EUR, USD, CAD, AUD, GBP, COP, CHF, MXN, ARS, CLP, PEN 
+-> EUR, USD, CAD, AUD, GBP, COP, CHF, MXN, ARS, CLP, PEN 
       """)
       
       moneda_inicial = str(input('Que moneda quieres convertir: '))
