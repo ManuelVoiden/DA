@@ -14,8 +14,10 @@ class conversor_moneda:
       
       def conversor(self, moneda_inicial, moneda_final, cantidad):
             cantidad_inicial = cantidad
-            if moneda_inicial != 'EUR':
+            if moneda_inicial == 'EUR':
                   cantidad = cantidad*self.rates[moneda_final]
+            elif moneda_inicial != 'EUR': 
+                  cantidad = ((cantidad/self.rates[moneda_inicial])*self.rates[moneda_final])
             print("Tu conversión está lista")
             print(f'{moneda_inicial} {cantidad_inicial} equivalen a {moneda_final} {cantidad}')
             print(self.rates[moneda_final])
