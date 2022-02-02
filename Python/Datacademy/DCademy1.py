@@ -28,7 +28,7 @@ if __name__ == "__main__":
       print("")
       print("Bienvenido a Monedapp 💰")
       print("""Puedes convertir entre las siguientes monedas: 
--> EUR, USD, CAD, AUD, GBP, COP, CHF, MXN, ARS, CLP, PEN 
+ -> EUR, USD, CAD, AUD, GBP, COP, CHF, MXN, ARS, CLP, PEN 
       """)
       
       moneda_inicial = str(input('Que moneda quieres convertir: '))
