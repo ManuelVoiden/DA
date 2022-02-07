@@ -11,5 +11,7 @@ for objetos in datos_usuarios:
     
     
 print(datos_usuarios) 
+
+#Las listas tienen las mismas propiedades de los strings por lo que usando el -1 se puede reversar el orden de los contenidos
 datos_usuarios[::-1]
 
