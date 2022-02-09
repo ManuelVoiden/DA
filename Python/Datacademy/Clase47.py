@@ -5,6 +5,6 @@ print(df_estudiantes)
 
 df_estudiantes.head()
 df_estudiantes.tail()
-df_estudiantes.sample(7)
+df_estudiantes.sample(7) #Aqui se puede sacar una muestra random de la bd
 print(df_estudiantes.shape)
-df_estudiantes.describe()
+df_estudiantes.describe() #Aqui se puede sacar un rapido analisis de las columnas con numeros en la bd
