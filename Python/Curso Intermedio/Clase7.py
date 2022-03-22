@@ -1,5 +1,4 @@
 #Listas y diccionarios
-
 def run():
     my_list = [433, "Buenos Dias", False, 7.78]
     my_dict = {"firstname": "Juan Manuel", "lastname": "Marín"}
@@ -23,9 +22,8 @@ def run():
     
     
     #Ahora para imprimir los valores dentro de la superlista se usa un for con la terminación .items
-    for list_value in range(len(super_list)):
-        for key, value in list_value.items():
-            print(key, "-", value)
+    for list_value in super_list:
+        print(list_value["firstname"], "-", list_value["lastname"])
     
     #Ahora para imprimir los valores dentro del superdiccionario se usa un for con la terminación .items
     for key, value in super_dict.items():
