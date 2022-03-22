@@ -12,8 +12,6 @@ def run():
         {"firstname": "Facundo", "lastname": "Garcia"},
         {"firstname": "Dua", "lastname": "Lipa"},
     ]
-
-    print(super_list)
     
     
     #Un superdiccionario incluye multiple listas
@@ -26,7 +24,8 @@ def run():
     
     #Ahora para imprimir los valores dentro de la superlista se usa un for con la terminación .items
     for list_value in range(len(super_list)):
-        print(super_list[list_value])
+        for key, value in list_value.items()
+            print(key, "-", value)
     
     #Ahora para imprimir los valores dentro del superdiccionario se usa un for con la terminación .items
     for key, value in super_dict.items():
