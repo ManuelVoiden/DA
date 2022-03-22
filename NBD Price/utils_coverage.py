@@ -367,3 +367,6 @@ def upload_data_to_sf(df,user):
     df=df,
     table_name='COVERAGE_COMPASS_SN_LOG'
     )
+    
+    
+def nbd_price(df)
