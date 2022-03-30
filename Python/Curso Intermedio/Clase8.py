@@ -30,6 +30,10 @@ def nuevo_cuadrados_divisibles():
     
     
 ##Reto de la clase
+##Crear una lista de todos los multiplos de 4 que a la vez son multiplos de 6 y de 9, maximo 5 cifras
+def tarea():
+    lista_tarea = [i for i in range(1, 99999) if i%4 == 0 and i%6 == 0 and i%9 == 0]
+    print(lista_tarea)
 
     
     
@@ -37,4 +41,5 @@ if __name__ == '__main__':
     cuadrados()
     cuadrados_divisibles()
     nuevo_cuadrados_divisibles()
+    tarea()
     
